@@ -1,0 +1,127 @@
+body, p, h1, h2{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    text-align: center;
+}
+
+html, body{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo{
+    background-color: #cee8f0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #cee8f0;
+}
+
+footer{
+    width:100%;
+    padding: 4px;
+    padding-right: 18px;
+    margin-bottom: 0px;
+    background-color: #cee8f0;
+    text-align: right;
+}
+
+
+button{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+button:hover{
+    font-size: 30px;
+/*     margin-left: 10px;
+    margin-right: 10px; */
+    margin-right: 75px;
+    margin-left: 75px;
+    color:#363636;
+    background-color: #5b95d9;
+    cursor: pointer;
+}
+
+
+section{
+    padding: 50px;
+}
+
+article{
+    background-color: #fff;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+   /*  box-shadow: 0 0 10px rgba(0,0,0, 0.2); */
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items:center;  
+}
+
+
+#div-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #cee8f0;
+} 
+
+#clients {
+/*     padding-left: 70px;
+    padding-right: 70px; */
+    background-color: #639ddf;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#animals {
+/*     padding-left: 45px;
+    padding-right: 45px; */
+    background-color: #3383dd;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#values {
+    background-color: #2469b8;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* small devices */
+@media screen and (min-width: 160px) and (max-width: 849px){
+    header{ 
+        display: block;
+    }
+    button{
+        margin-top: 50px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 850px) and (min-width: 1200px){
+
+}
